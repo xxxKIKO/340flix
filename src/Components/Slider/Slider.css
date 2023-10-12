@@ -1,0 +1,17 @@
+.btnCategoria {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    font-size: 24px;
+    padding: 5px 10px; /* Espacio alrededor del texto (arriba/abajo y izquierda/derecha) */
+    border: 1px solid #007bff; /* Borde del botón */
+    border-radius: 5px; /* Radio de borde para hacerlo redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Elimina la decoración de enlace si se usa como botón */
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+}
+
+.slider-container {
+    margin: 10px;
+    border-bottom: 1px solid #007bff;
+}

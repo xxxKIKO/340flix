@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    color: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.error404 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+}
+
+h1{
+    color: azure;
+}

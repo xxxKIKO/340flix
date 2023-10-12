@@ -1,0 +1,67 @@
+.fondo {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    /* height: 1440px; */
+}
+
+.ImgFondo {
+    opacity: 0.4;
+    object-fit: cover;
+}
+
+/* aqui van los estilos del background */
+
+.BannerM {
+    position: absolute; /* Establece la posición absoluta en el div 'BannerM' */
+    top: 265px; /* Puedes ajustar la posición superior según tu diseño */
+    left: 0px; /* Puedes ajustar la posición izquierda según tu diseño */
+    width: 100%; /* Ajusta el ancho al 100% del div 'fondo' */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.FrontEnd {
+    width: 45%;
+}
+
+
+.ButtonFrontEnd {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    font-size: 32px;
+    padding: 5px 10px; /* Espacio alrededor del texto (arriba/abajo y izquierda/derecha) */
+    border: 1px solid #007bff; /* Borde del botón */
+    border-radius: 5px; /* Radio de borde para hacerlo redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Elimina la decoración de enlace si se usa como botón */
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+  }
+  
+  /* Cambiar el color del botón al pasar el mouse por encima */
+  .ButtonFrontEnd:hover {
+    background-color: #000000;
+  }
+
+  .subtitulo {
+    color: white;
+    font-family: monospace;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  .BannerInfo{
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    text-justify: justify;
+    margin-top: 10px;
+  }
+
+  .BannerImg {
+    width: 640px;
+    height: 360px;
+    margin: 10px 10px;
+  }
