@@ -9,7 +9,7 @@ function Header() {
         </Link>
         
         <Link to='/newvideo' className="linkNuevo">
-            <Button texto='Nuevo Video'/>
+            <Button className='button' texto='Nuevo Video'/>
         </Link>    
         
        

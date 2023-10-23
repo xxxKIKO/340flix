@@ -12,7 +12,7 @@ const Campo = (props) =>{
         props.actualizarValor(e.target.value)
     }
 
-    return <div className='campo'>
+    return <div className={`campo campo-${type}`}>
         <label>{props.titulo}</label>
         <input
             placeholder={placeholdermod}

@@ -8,6 +8,7 @@ const Player = ({selectedVideo, selectedVideoTitle}) => {
         <iframe 
             width="640" 
             height="360" 
+            className="videoPLayer"
             src={selectedVideo} 
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

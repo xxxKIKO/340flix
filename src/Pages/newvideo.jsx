@@ -1,9 +1,12 @@
 import React from "react"
 import Formulario from "../Components/Formulario/Formulario";
 
-const NewVideo = () => {
+const NewVideo = (props) => {
+
+    const { registrarVideo } = props
+
     return <>
-        <Formulario/>
+        <Formulario registrarVideo={registrarVideo} categorias={props.categorias}/>
     </>
 }
 

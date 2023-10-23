@@ -31,6 +31,7 @@ const VideoCard = ({onVideoSelect, urlVideo, tituloVideo}) => {
                 <img 
                 width="360" 
                 height="215" 
+                className='imagenVideo'
                 src={obtenerThumbnailURL(urlVideo)} 
                 alt="Reproducir video" 
                 onClick={() => onVideoSelect(urlVideo, tituloVideo)} 

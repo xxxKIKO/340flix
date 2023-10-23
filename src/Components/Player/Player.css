@@ -2,3 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 10px;
 }
+
+.videoPLayer {
+    border: 5px outset #f4b3f4;
+}
